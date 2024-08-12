@@ -1,0 +1,56 @@
+/* src/components/Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    /* background-color: #333; */
+    /* color: white; */
+    font-family: sans-serif;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+  }
+  
+  .navbar-logo {
+    margin: 0;
+    font-size: 1rem;
+    background-image: url("../../assets/hermiicon.png");
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+  }
+  
+  .navbar-links {
+    color: white;
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .navbar-links li a:hover {
+    text-decoration: underline;
+  }
+  
+  .navbar-button {
+    padding: 0.5rem 1rem;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .navbar-button:hover {
+    background-color: darkred;
+  }
+  
